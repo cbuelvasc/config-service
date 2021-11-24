@@ -15,3 +15,12 @@ After building the application, you can also run it from the Java CLI:
 ```bash
 java -jar build/libs/config-service-0.0.1-SNAPSHOT.jar
 ```
+
+* Get properties os catalog-service
+```bash
+localhost:8888/catalog-service/default
+```
+
+```bash
+localhost:8888/catalog-service/prod
+```
